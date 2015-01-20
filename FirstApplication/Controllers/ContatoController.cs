@@ -16,7 +16,7 @@ namespace FirstApplication.Controllers
         {
             Contato C = new Contato() { Nome = "Curso MVC", Telefone = "123123123", HorarioComercial = true };
             //return View(C);
-            return this.Redirect("http://google.com");
+            return this.Content("Teste");
         }
 
     }
