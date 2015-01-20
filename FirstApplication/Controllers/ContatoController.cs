@@ -15,7 +15,8 @@ namespace FirstApplication.Controllers
         public ActionResult Index()
         {
             Contato C = new Contato() { Nome = "Curso MVC", Telefone = "123123123", HorarioComercial = true };
-            return View(C);
+            //return View(C);
+            return this.Redirect("http://google.com");
         }
 
     }
